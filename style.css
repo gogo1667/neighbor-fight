@@ -133,3 +133,9 @@ body {
   0% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-20px); }
 }
+
+  /* Prevent iOS double-tap zoom & remove tap highlight */
+  button {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
