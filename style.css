@@ -81,7 +81,7 @@ body {
 #controls {
   position: fixed;
   bottom: 20px;
-  left: 50%;
+  left: 15%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
