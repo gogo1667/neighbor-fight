@@ -1,1 +1,40 @@
-<div>tegtsgsagdsgdgfs</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sloppy Showdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="arena">
+    <div class="fighter player" id="player">
+        <img src="gogo.png" class="gogo-head" alt="Gogo's Head">
+      <div class="body"></div>
+      <div class="arm left"></div>
+      <div class="arm right" id="playerRightArm">
+        <div class="glove" id="glove"></div>
+      </div>
+      <div class="leg left"></div>
+      <div class="leg right"></div>
+    </div>
+
+    <div class="fighter ai" id="ai">
+      <div class="head"></div>
+      <div class="body"></div>
+      <div class="arm left"></div>
+      <div class="arm right"></div>
+      <div class="leg left"></div>
+      <div class="leg right"></div>
+    </div>
+  </div>
+
+  <div id="controls">
+    <button id="leftBtn">⬅️</button>
+    <button id="rightBtn">➡️</button>
+    <button id="punchBtn">🥊</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
